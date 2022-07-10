@@ -1,5 +1,4 @@
 import sys
-import csv
 from TickerTree import TickerTree
 from TickerData import TickerData
 
@@ -36,11 +35,6 @@ def main(args):
                 print("One of your inputs caused an error.")
                 return
             print([ticker, wAvgPrice, avgOpen])
-            # if len(args) == 3:
-            #     print([ticker, wAvgPrice, avgOpen])
-            # else:
-            #     csvout = csv.writer(open(args[3], "a"))
-            #     csvout.writerow([ticker, wAvgPrice, avgOpen])
 
 
 if __name__ == "__main__":
