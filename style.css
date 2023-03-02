@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    background-color: rgb(70, 130, 180, .8);
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    padding: 50px;
+    background-color: white;
+    border-radius: 35px;
+    border: .3px solid black;
+    box-shadow: 0 0 80px black;
+    width: 67%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.description {
+    font-size: smaller;
+    margin-bottom: 20px;
+}
+
+.ticker-form {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.ticker-form div {
+    margin: 5px 10px 5px 10px;
+}
+
+.ticker-form label {
+    display: block;
+    font-size: smaller;
+}
+
+.ticker-form select {
+    padding: 6.5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.ticker-form .go-button {
+    align-self: end;
+}
+
+.go-button button {
+    height: 33px;
+    width: 50px;
+    background-color: aquamarine;
+    /* border: 1px solid black; */
+    border: none;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 10px;
+}
+
+.results {
+    /* background-color: burlywood; */
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.results .result {
+    margin: 15px 5px 15px 5px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 4px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.result .result-field {
+    margin: 0px 8px 0px 8px;
+    padding: 5px;
+}
+
+.result-field .result-label {
+    font-size: .7rem;
+}
+
+/* .result-field .result-value {
+    text-align: center;
+} */
