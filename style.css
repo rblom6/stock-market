@@ -1,20 +1,32 @@
-html {
+html, body {
     height: 100%;
-    background-color: rgb(70, 130, 180, .8);
+    margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-body {
+.app-background {
+    height: 100%;
+    /* background-color: rgb(70, 130, 180, .8); */
+    background-image: url("https://images.pexels.com/photos/102152/pexels-photo-102152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.app {
     padding: 50px;
     background-color: white;
     border-radius: 35px;
     border: .3px solid black;
     box-shadow: 0 0 80px black;
     width: 67%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .title {
