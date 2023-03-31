@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stockSamples26/TickerData.py
+src/stockSamples26/TickerTree.py
+src/stockSamples26/__init__.py
+src/stockSamples26/main.py
+src/stockSamples26.egg-info/PKG-INFO
+src/stockSamples26.egg-info/SOURCES.txt
+src/stockSamples26.egg-info/dependency_links.txt
+src/stockSamples26.egg-info/top_level.txt
+src/stockSamples26/data/SP500_ind.csv
+src/stockSamples26/data/SP_500.xml
+tests/test.py
